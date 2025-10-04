@@ -1,0 +1,4 @@
+planner.localhost {
+	tls internal
+	reverse_proxy http://planner:8000
+}
