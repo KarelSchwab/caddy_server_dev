@@ -1,3 +1,8 @@
+karelschwab.localhost {
+	tls internal
+	reverse_proxy http://karelschwab:8000
+}
+
 planner.localhost {
 	tls internal
 	reverse_proxy http://planner:8000
