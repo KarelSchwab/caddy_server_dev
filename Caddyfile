@@ -5,5 +5,5 @@ karelschwab.localhost {
 
 planner.localhost {
 	tls internal
-	reverse_proxy http://planner:8000
+	reverse_proxy planner:8000
 }
